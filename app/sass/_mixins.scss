@@ -23,3 +23,13 @@
     @content;
   }
 }
+@mixin medium {
+  @media (max-width: 1530px) {
+    @content;
+  }
+}
+@mixin mediumsmaller {
+  @media (max-width: 1360px) {
+    @content;
+  }
+}

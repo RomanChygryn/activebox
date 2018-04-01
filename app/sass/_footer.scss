@@ -1,0 +1,28 @@
+.footer {
+
+  background: #3a3e64;
+  font-family: 'Raleway', sans-serif;
+  .container {
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(3, 1fr);
+  }
+  .footer__copyright {
+    background: #313454;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    .copyright__text,
+    .copyright__subtext {
+      color: #7b7b7d;
+      span {
+        color: red;
+      }
+      span {
+        color: #fff;
+
+      }
+    }
+  }
+}

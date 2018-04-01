@@ -8,7 +8,7 @@
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cardo:400,400i" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <link rel="stylesheet" href="css/main.css">
 
 </head>
@@ -26,7 +26,7 @@
             <li><a href="#features" class="nav__item">features</a></li>
             <li><a href="#works" class="nav__item">works</a></li>
             <li><a href="#team" class="nav__item">our team</a></li>
-            <li><a href="#" class="nav__item">testimonials</a></li>
+            <li><a href="#testimonial" class="nav__item">testimonials</a></li>
             <li><a href="#" class="nav__item">download</a></li>
           </ul>
         </nav>
@@ -265,55 +265,72 @@
 
     </section>
   </div>
-
-
-
-  
-  <div class="new">
-    <div id="quad">
-      <figure>
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/rose-red-wine.jpg" alt="rose-red-wine">
-      <figcaption>Rose Red Wine</figcaption>
-      </figure>
-      <figure>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/green-glass-bottle.jpg" alt>
-        <figcaption>Green Glass Bottle</figcaption>
-      </figure>
-      <figure>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/guinness-barrels.jpg" alt>
-        <figcaption>Guinness Barrels, Dublin</figcaption>
-      </figure>
-      <figure>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/crystal-skull-vodka.jpg" alt>
-        <figcaption>Crystal Skull Vodka</figcaption>
-      </figure>
-    </div>
-    <div id="quad">
-      <figure>
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/rose-red-wine.jpg" alt="rose-red-wine">
-      <figcaption>Rose Red Wine</figcaption>
-      </figure>
-      <figure>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/green-glass-bottle.jpg" alt>
-        <figcaption>Green Glass Bottle</figcaption>
-      </figure>
-      <figure>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/guinness-barrels.jpg" alt>
-        <figcaption>Guinness Barrels, Dublin</figcaption>
-      </figure>
-      <figure>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/crystal-skull-vodka.jpg" alt>
-        <figcaption>Crystal Skull Vodka</figcaption>
-      </figure>
-    </div>
-  </div>
 <!-- team end -->
- <!-- <button class="btn"><a href="#">download here</a></button> -->
+
+  <section class="testimonials" id="testimonial">
+      <div class="testimonials__item item fade">
+        <div class="item__photo">
+          <img src="img/testi1.jpg" alt="Photo of customer" class="photo">
+        </div>
+        <div class="item__text">
+          <p class="text__content">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+          <p class="text__author">Susan Sims, Interaction Designer at XYZ</p>
+        </div>
+      </div>
+
+      <div class="testimonials__item item fade">
+        <div class="item__photo">
+          <img src="img/testi2.jpg" alt="Photo of customer" class="photo">
+        </div>
+        <div class="item__text">
+          <p class="text__content">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates beatae magni, aspernatur!”</p>
+          <p class="text__author">Martin Ell, Developer at QWERTY</p>
+        </div>
+      </div>
+
+      <div class="testimonials__item item fade">
+        <div class="item__photo">
+          <img src="img/testi3.jpg" alt="Photo of customer" class="photo">
+        </div>
+        <div class="item__text">
+          <p class="text__content">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda esse temporibus corporis repellendus, placeat.”</p>
+          <p class="text__author">Monica Belucci, PM at ZORGO</p>
+        </div>
+      </div>
+
+      <div class="testimonials__dots item">
+        <span class="testimonials__dot"></span>
+        <span class="testimonials__dot"></span>
+        <span class="testimonials__dot"></span>
+      </div>
+  </section>
+  <section class="download" id="download">
+    <h2 class="download__title">Are You Ready to Start? Download Now For Free!</h2>
+    <p class="download__description">Fusce dapibus, tellus ac cursus commodo</p>
+    <button class="btn download__button"><a href="#">download here</a></button>
+  </section>
+
+  <!-- footer -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__adress">111</div>
+      <div class="footer__share">222</div>
+      <div class="footer__about">333</div>
+    </div>
+    <div class="footer__copyright copyright">
+      <p class="copyright__text">Copyright © 2015 ActiveBox. All Rights Reserved</p>
+      <p class="copyright__subtext">Made with <span><i class="fas fa-heart"></i> by Kamal Chaneman</span></p>
+    </div>
+  </footer>
+
+
+
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   <script src="js/dropdown.js" type="text/javascript"></script>
   <script src="js/common.js" type="text/javascript"></script>
   <script src="js/lightbox.js" type="text/javascript"></script>
-
+  <script src="js/slider.js" type="text/javascript"></script>
 </body>
 </html>
